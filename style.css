@@ -1,0 +1,102 @@
+
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: BLACK;
+    color: white;
+    padding: 20px;
+    
+}
+
+ul {
+    list-style-type: none;
+    text-align: right;
+}
+li{
+    display: inline-block;
+    padding-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+p{
+padding: 10px;
+text-align: justify;
+font-size: 1em;
+color: white;
+}
+.todas-viagens{
+  display: flex;
+  justify-content: center;
+}
+.viagens{
+    margin: 20px;
+    margin-top: 50px;
+  background-color: grey;
+    border-radius: 10px;
+    width: 400px;
+    height: 450px;
+    display: inline-block;
+}
+
+.viagens:hover{
+    border: 2px solid rgb(137, 136, 136);
+    box-sizing: border-box;
+    transition-duration: 0.3s;
+}
+h1{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 3em;
+}
+
+input{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1em;
+}
+.botao{
+    text-align: center;
+}
+input:hover{
+   background-color: white;
+   color: black;
+}
+
+#cancum{
+    margin: auto;
+    border-radius: 10px;
+    width: 50vw;
+    width: 50vw;
+}
+.viagem{
+    margin-top: 50px;
+   text-align: center;
+}
+
+.viagem-text{
+    margin: auto;
+    text-align: justify;
+    width: 50vw;
+    font-size: 1.5em;
+    color: black;
+}
+
+h2{
+    margin-left: 30px; 
+    padding: 10px;
+}
+
+
